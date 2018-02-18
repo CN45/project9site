@@ -19,9 +19,7 @@ img {
 }
 
 .switch-toggle.switch-ios  {
-  display: flex;
-  flex-direction: row;
-justify-content: flex-end;
+float: right;
 }
 .switch-ios.switch-toggle  {
   background-color: white;
