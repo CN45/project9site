@@ -18,6 +18,7 @@ img {
 
 }
 .toggle {
+
   display: flex;
   flex-direction: row;
 }
