@@ -15,7 +15,7 @@ img {
 }
 .body {
   display: flex;
-  flex-direction: column;
+
 }
 
 .icon-bar {
