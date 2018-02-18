@@ -17,11 +17,13 @@ img {
   display: flex;
 
 }
-.toggle {
+
+.switch-toggle  {
 
   display: flex;
   flex-direction: row;
 }
+
 .icon-bar {
 
   display: flex;
