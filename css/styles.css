@@ -18,12 +18,14 @@ img {
 
 }
 
-.switch-toggle  {
-
+.switch-toggle.switch-ios  {
   display: flex;
   flex-direction: row;
+justify-content: flex-end;
 }
-
+.switch-ios.switch-toggle  {
+  background-color: white;
+}
 .icon-bar {
 
   display: flex;
