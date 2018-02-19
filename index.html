@@ -116,6 +116,7 @@ var firstChart = new Chart(ctx, {
         datasets: [{
             label: 'Daily Traffic',
             data: [65, 120, 175, 135, 240, 225, 110],
+            hoverBackgroundColor: 'yellow',
             backgroundColor: [
                 'rgba(99, 99, 196, 0.8)',
                 'rgba(99, 99, 196, 0.8)',
@@ -164,8 +165,8 @@ new Chart(document.getElementById("doughnut-chart"), {
       datasets: [
         {
           label: "Mobile Users",
-          backgroundColor: ["rgba(99, 99, 196, 0.8)", "#81D2A8","#67ABB1"],
-          data: [2500,500,600,]
+          backgroundColor: ["#81D2A8","#67ABB1","rgba(99, 99, 196, 0.8)"],
+          data: [600,500,2500,]
         }
       ]
     },
@@ -173,7 +174,7 @@ new Chart(document.getElementById("doughnut-chart"), {
         title: {
         display: true,
         text: 'Mobile Users'
-
+      
       }
     }
 
