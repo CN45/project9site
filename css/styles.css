@@ -94,9 +94,7 @@ flex-direction: row;
   width: 100%;
   margin: 15px auto;
   margin-left: 10px;
-
-  float: left;
-}
+  }
 .line-chart {
 
   width: 100%;
