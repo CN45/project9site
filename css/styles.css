@@ -229,6 +229,21 @@ width: 50%;
   width: 50%;
   float: right;
   height:auto;
+  padding-left: 5;
+  border-right: 5;
+  border-right-color: lightgrey;
+  border-top: 2px solid;
+  border-top-color: rgb(145,143,143);
+  margin-top: 25;
+}
+.activity-widget h1,
+.members-block h1 {
+  color: rgba(99, 99, 196, 0.8);
+}
+.activity-widget h1{
+  padding-top: 15;
+  border-top: 10;
+  border-top-color: lightgrey;
 }
 .members-block {
 float:left;
@@ -244,7 +259,8 @@ width: 100%;
 width: 100%;
   display: inline-block;
   margin: 0 4%;
-  padding: 2.5% 0;
+
+padding: 2.5% 0;
   border-bottom: .9px solid rgb(178, 178, 178);
 }
 
