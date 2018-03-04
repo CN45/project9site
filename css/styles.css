@@ -10,10 +10,11 @@ img {
 }
 .wholeBody {
   display: flex;
+    flex-direction: column;
 }
 .dashAll {
-  display:flex;
-  flex-direction: column;
+
+
 }
 .dashboard-search_box,
 .search-bar {
