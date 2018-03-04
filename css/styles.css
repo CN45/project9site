@@ -8,12 +8,13 @@
 img {
   fontColor: grey;
 }
-.wholeBody {
+.top {
   display: flex;
-    flex-direction: column;
+flex-direction: column;
 }
 .dashAll {
-
+display: flex;
+flex-direction: column;
 
 }
 .dashboard-search_box,
@@ -141,9 +142,9 @@ h4 {
 width: 45px;
 
 background-color: #524668;
-justify-content: center;
+/*justify-content: center;
 flex-direction: row;
-}
+*/}
 
 .item {
   align-self: center;
