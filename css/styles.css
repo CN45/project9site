@@ -9,7 +9,7 @@ img {
   fontColor: grey;
 }
 .top {
-  display: flex;
+display: flex;
 flex-direction: column;
 }
 .dashAll {
@@ -30,7 +30,7 @@ padding-bottom: 10;
 }
 .body {
   display: flex;
-
+flex-direction: column;
 }
 
 .switch-toggle.switch-ios  {
