@@ -30,7 +30,7 @@ padding-bottom: 10;
 }
 .body {
   display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 
 .switch-toggle.switch-ios  {
@@ -142,8 +142,9 @@ h4 {
 width: 45px;
 
 background-color: #524668;
+display: flex;
 justify-content: center;
-flex-direction: row;
+flex-direction:column;
 }
 
 .item {
