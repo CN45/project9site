@@ -8,10 +8,14 @@
 img {
   fontColor: grey;
 }
+.wholeBody {
+  display: flex;
+}
 .dashboard-search_box,
 .search-bar {
   display: flex;
  justify-content: space-between;
+padding-bottom: 10;
 }
 .row {
 
@@ -39,6 +43,7 @@ img {
 }
 /* alert bar*/
 .alert {
+
 width: 100%;
   margin: 10px;
   border-radius: 5px;
@@ -49,7 +54,7 @@ width: 100%;
 }
 
 .primary-container {
-  display: flex;
+display: flex;
   flex-direction: row;
   padding-left: 20px;
 }
@@ -117,6 +122,8 @@ h2 {
   color: grey;
   font-size: 20px;
   font-family: roboto;
+  display: inline;
+
 }
 h4 {
   margin: 0 auto;
@@ -221,20 +228,26 @@ padding: 0;
 
 
 .members-container {
-display: block;
+display: flex;
+flex-direction: column;
 width: 50%;
 }
 .activity-widget {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 50%;
   float: right;
   height:auto;
-  padding-left: 5;
+padding-left: 15;
+
   border-right: 5;
   border-right-color: lightgrey;
-  border-top: 2px solid;
+
   border-top-color: rgb(145,143,143);
-  margin-top: 25;
+
+  border-top: 2px solid rgb(145, 143, 143);
+  border-bottom: 2px solid rgb(145, 143, 143);
+  margin-top: 25px;
 }
 .activity-widget h1,
 .members-block h1 {
@@ -266,6 +279,7 @@ padding: 2.5% 0;
 
 .member-wrapper_profile {
   float: left;
+
 }
 
 .member-wrapper_profile img {
