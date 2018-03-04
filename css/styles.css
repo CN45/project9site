@@ -11,6 +11,10 @@ img {
 .wholeBody {
   display: flex;
 }
+.dashAll {
+  display:flex;
+  flex-direction: column;
+}
 .dashboard-search_box,
 .search-bar {
   display: flex;
