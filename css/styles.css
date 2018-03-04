@@ -142,9 +142,9 @@ h4 {
 width: 45px;
 
 background-color: #524668;
-/*justify-content: center;
+justify-content: center;
 flex-direction: row;
-*/}
+}
 
 .item {
   align-self: center;
