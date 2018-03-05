@@ -291,7 +291,7 @@
 </div>
         <div id="membership" class="members-container">
           <div class="members-block">
-            <h1>New Members</h1>
+            <h2>New Members</h2>
 
             <div class="member-wrapper">
               <!--    M E M B E R S    -->
@@ -346,13 +346,13 @@
 
 
         <div class="activity-widget">
-          <h1>Recent Activity</h1>
+          <h2>Recent Activity</h2>
 
           <div class="member-wrapper">
             <div class="member-wrapper_profile">
               <img src="https://randomuser.me/api/portraits/women/78.jpg" alt="Member photo">
               <div class="member-information">
-                <p id="member-activity">Victoria Chambers commented on YourApp's SEO Tips</p>
+                <p id="grey">Victoria Chambers commented on YourApp's SEO Tips</p>
                 <p class="members-recent_activity">4 hours ago</p>
               </div>
             </div>
@@ -364,7 +364,7 @@
             <div class="member-wrapper_profile">
               <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Member photo">
               <div class="member-information">
-                <p>Dale Byrd like the post Facebook's Changes for 2016</p>
+                <p id ="grey">Dale Byrd like the post Facebook's Changes for 2016</p>
                 <p class="members-recent_activity">5 hours ago</p>
               </div>
             </div>
@@ -376,7 +376,7 @@
             <div class="member-wrapper_profile">
               <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Member photo">
               <div class="member-information">
-                <p>Dawn Wood commented on Facebook's Changes for 2016</p>
+                <p id="grey">Dawn Wood commented on Facebook's Changes for 2016</p>
                 <p class="members-recent_activity">5 hours ago</p>
               </div>
             </div>
@@ -388,20 +388,46 @@
             <div class="member-wrapper_profile">
               <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Member photo">
               <div class="member-information">
-                <p>Dan Oliver posted YourApp's SEO Tip's</p>
+                <p id="grey">Dan Oliver posted YourApp's SEO Tip's</p>
                 <p class="members-recent_activity">1 day ago</p>
               </div>
             </div>
             <p class="arrow">&#8250;</p>
           </div>
-
-
+</div><!--activity widget end-->
+<div class="col-4">
+  <h2>Message User</h2>
       <form name="searchUser" action="index.html" onsubmit="return validateForm()" method="post">
         <input type="text" name="search" placeholder="Search for user">
-        <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post">
+        <form name="userForm" action="index.html" onsubmit="return validateForm()" method="post">
           <input type="text" name="fname" placeholder="Message for user">
-          <input type="submit" value="Send">
+           <div class="btn-bar"><button class="btn-a">Send</button></div>
         </form>
+</div>
+<div class="settings-widget">
+
+<h2>Settings</h2>
+<p id="grey">Send Email Notifications</p>
+<input class="toggle" type="checkbox" />
+<p id="grey">Set Profile to Public</p>
+<input class="toggle" type="checkbox"/>
+
+
+<div class="timezone"><select class="settings__timezone">
+                         <option id="default" value="" disabled selected>Select Timezone</option>
+                         <option>(GMT-12:00) International Date Line West</option>
+                         <option>(GMT-11:00) Midway Island, Samoa</option>
+                         <option>(GMT-10:00) Hawaii</option>
+                         <option>(GMT-09:00) Alaska</option>
+                         <option>(GMT-08:00) Pacific Time (US & Canada)</option>
+                         <option>(GMT-08:00) Tijuana, Baja California</option>
+                         <option>(GMT-07:00) Arizona</option>
+                       </select></div>
+<div class="buttonsRight">
+<div class="btn"><button class="btn-c">Save</button></div>
+<div class="btn"><button class="btn-d">Cancel</button></div>
+</div>
+</div><!--End settings widget-->
 
     </div><!--body div -->
 </div><!--end main-content div-->
