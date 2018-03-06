@@ -259,7 +259,6 @@ svg {
   display: flex;
   flex-direction: column;
   width: 50%;
-  margin-top: 25px;
 
 }
 
@@ -272,15 +271,17 @@ svg {
   height: auto;
   padding-left: 15;
   border-right: 5;
+
   border-right-color: lightgrey;
   border-top-color: rgb(145, 143, 143);
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
 margin-bottom: 25px;
+
 }
 .activity-widget h2 {
   margin: 0;
-margin-bottom: 25px;
+
 }
 
 .activity-widget h1, .members-block h1 {
@@ -364,6 +365,12 @@ margin-bottom: 25px;
   margin-bottom: 15px;
 }
 
+.members-user {
+  margin-top: 10px;
+}
+ #settingsBottom {
+  padding-bottom: 5px;
+}
 /* Toggle at bottom*/
 
 .toggle {
@@ -432,6 +439,8 @@ input[name=fname] {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
+
+  height:  65px;
 }
 
 .settings__timezone {
@@ -449,6 +458,7 @@ input[name=fname] {
 }
 
 .btn button {
+  height: 40px;
   margin: 10px;
   margin-right: 30px;
   padding: 10px 10px 10px 20px;
@@ -473,6 +483,8 @@ input[name=fname] {
 .buttonsRight {
   display: flex;
   justify-content: space-around;
+  padding-top: 15px;
+
 }
 
 @media only screen (min-width:320px) {}
@@ -486,7 +498,7 @@ input[name=fname] {
 @media (min-width: 768px) {
   [class^="col-"] {
     float: left;
-    padding: 0 1rem;
+
   }
   .col-1 {
     width: calc(100% / 12);
@@ -526,7 +538,8 @@ input[name=fname] {
   }
 }
 
-.members-container {
+.members-container,
+.activity-widget {
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-top: 25px;
@@ -535,8 +548,15 @@ input[name=fname] {
 
 .settings-widget {
   width: 50%;
-}
+  padding-left: 20px;
 
+}
+.col-4 {
+  padding-left: 10px;
+}
 .members-block, .messages-container {
   float: left;
+}
+form {
+  margin-top: 20px;
 }

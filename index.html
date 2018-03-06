@@ -292,9 +292,9 @@
           <div id="membership" class="members-container">
             <div class="members-block">
               <h2>New Members</h2>
-
+</div>
               <div class="member-wrapper">
-                  </div>
+
                 <!--    M E M B E R S    -->
                 <div class="member-wrapper_profile">
                   <img src="https://randomuser.me/api/portraits/women/78.jpg" alt="Member photo">
@@ -397,18 +397,21 @@
             </div>
           </div>
           <!--activity widget end-->
-          <div class="col-4">
-            <h2>Message User</h2>
+
+
+                <div class="col-4">
+            <h2 id="settingsBottom"> Message User</h2>
             <form name="searchUser" action="index.html" onsubmit="return ValidationEvent()" method="post">
               <input type="text" name="search" placeholder="Search for user">
               <form name="userForm" action="index.html" onsubmit="return ValidationEvent()" method="post">
                 <input type="text" name="fname" placeholder="Message for user">
                 <div class="btn-bar"><button class="btn-a">Send</button></div>
               </form>
-          </div>
+              </div>
+
           <div class="settings-widget">
 
-            <h2>Settings</h2>
+            <h2 id="settingsBottom">Settings</h2>
             <p id="grey">Send Email Notifications</p>
             <input class="toggle" type="checkbox" />
             <p id="grey">Set Profile to Public</p>
