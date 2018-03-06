@@ -259,6 +259,7 @@ svg {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin-top: 25px;
 }
 
 .activity-widget {
@@ -273,7 +274,11 @@ svg {
   border-top-color: rgb(145, 143, 143);
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
-  margin-top: 25px;
+
+}
+.activity-widget h2 {
+  margin: 0;
+
 }
 
 .activity-widget h1, .members-block h1 {
@@ -281,14 +286,13 @@ svg {
 }
 
 .activity-widget h1 {
-  padding-top: 15;
-  border-top: 10;
   border-top-color: lightgrey;
 }
 
 .members-block {
   float: left;
   width: 100%;
+
 }
 
 .member:last-child {
