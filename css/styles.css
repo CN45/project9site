@@ -260,9 +260,11 @@ svg {
   flex-direction: column;
   width: 50%;
   margin-top: 25px;
+
 }
 
 .activity-widget {
+    margin-top: 25px;
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -274,11 +276,11 @@ svg {
   border-top-color: rgb(145, 143, 143);
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
-
+margin-bottom: 25px;
 }
 .activity-widget h2 {
   margin: 0;
-
+margin-bottom: 25px;
 }
 
 .activity-widget h1, .members-block h1 {
@@ -286,6 +288,7 @@ svg {
 }
 
 .activity-widget h1 {
+
   border-top-color: lightgrey;
 }
 
@@ -299,14 +302,19 @@ svg {
   border-bottom: none;
 }
 
-.member-wrapper {
+/*.member-wrapper {
   width: 100%;
   display: inline-block;
   margin: 0 4%;
   padding: 2.5% 0;
   border-bottom: .9px solid rgb(178, 178, 178);
 }
-
+*/
+.member-wrapper {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey;
+}
 .member-wrapper_profile {
   float: left;
 }
