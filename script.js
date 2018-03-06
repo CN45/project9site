@@ -1,5 +1,9 @@
 
 
+//document.getElementByClassName("alert").addEventListener("click", function(){
+//    document.getElementByClassName("bell").alert = "Hello World";
+//});
+
 
 function ValidationEvent(){
 	if ((document.searchUser.search.value=="") || (document.userForm.fname.value=="")){
