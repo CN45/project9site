@@ -1,5 +1,6 @@
-<html>
 
+ <!DOCTYPE html>
+ <html>
 <head>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +16,7 @@
 
   <div class="icon-bar">
 
-    <h1 id="yourApp" href="YourApp"><b>Your</b>App &trade;</h1>
+    <h1 id="yourApp"><b>Your</b>App &trade;</h1>
 
     <div class="bell">
       <img src="icons/icon-bell.svg" alt="bell-icon">
@@ -53,7 +54,7 @@
           <strong>Danger!</strong> Hit the x to close.
         </div>
 
-        <div class="switch-toggle switch-iOS">
+        <div class="switch-toggle switch-ios">
           <input id="hour3" name="view3" type="radio" checked>
           <label for="hour3" onclick="">Hourly</label>
 
@@ -66,8 +67,8 @@
 
           <input id="month3" name="view3" type="radio">
           <label for="month3" onclick="">Monthly</label>
+<a></a>
 
-          <a></a>
         </div>
       </div>
 
@@ -124,7 +125,7 @@
 
 
 
-              <canvas id="firstChart" width="200" height="200"></canvas>
+              <canvas id="firstChart" width="55" height="65"></canvas>
               <script>
                 var ctx = document.getElementById("firstChart").getContext('2d');
                 var firstChart = new Chart(ctx, {
@@ -398,8 +399,8 @@
           </div>
           <!--activity widget end-->
 
+<div class="messageUserContainer">
 
-                <div class="col-4">
             <h2 id="settingsBottom"> Message User</h2>
             <form name="searchUser" action="index.html" onsubmit="return ValidationEvent()" method="post">
               <input type="text" name="search" placeholder="Search for user">
@@ -407,7 +408,8 @@
                 <input type="text" name="fname" placeholder="Message for user">
                 <div class="btn-bar"><button class="btn-a">Send</button></div>
               </form>
-              </div>
+
+            </div>
 
           <div class="settings-widget">
 
@@ -436,10 +438,11 @@
           <!--End settings widget-->
 
         </div>
-        <!--body div -->
-      </div>
-      <!--end main-content div-->
 
+      </div>
+
+    </div><!--end main content div -->
+    </div><!-- body end-->
       <script src="script.js"></script>
 
 </body>

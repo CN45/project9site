@@ -50,7 +50,7 @@ img {
 
 .switch-toggle.switch-ios {
   display: flex;
-  width: 20%;
+  width: 40%;
   height: 35px;
   float: right;
 }
@@ -204,9 +204,7 @@ h4 {
 /* social Stats
 */
 
-.social-stats {
-  margin-bottom: 20px;
-}
+
 
 .twitter, .facebook, .google {
   display: flex;
@@ -259,6 +257,7 @@ svg {
   display: flex;
   flex-direction: column;
   width: 50%;
+  padding-left: 5px;
 
 }
 
@@ -277,6 +276,7 @@ svg {
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
 margin-bottom: 25px;
+
 
 }
 .activity-widget h2 {
@@ -370,6 +370,7 @@ margin-bottom: 25px;
 }
  #settingsBottom {
   padding-bottom: 5px;
+  padding-left: 5px;
 }
 /* Toggle at bottom*/
 
@@ -439,8 +440,7 @@ input[name=fname] {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-
-  height:  65px;
+  height:  45px;
 }
 
 .settings__timezone {
@@ -483,10 +483,17 @@ input[name=fname] {
 .buttonsRight {
   display: flex;
   justify-content: space-around;
-  padding-top: 15px;
+  padding-top: 30px;
 
 }
-
+.messageUserContainer {
+width: 50%;
+float: left;
+display: inline;
+padding-left: 5px;
+border-right: 1px;
+border-right-color: lightgrey;
+}
 @media only screen (min-width:320px) {}
 
 @media only screen (min-width:768px) {}
@@ -544,6 +551,8 @@ input[name=fname] {
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-top: 25px;
   float: left;
+  padding-left: 5px;
+
 }
 
 .settings-widget {
@@ -553,6 +562,7 @@ input[name=fname] {
 }
 .col-4 {
   padding-left: 10px;
+
 }
 .members-block, .messages-container {
   float: left;
