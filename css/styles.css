@@ -119,7 +119,7 @@ p {
   color: rgba(99, 99, 196, 0.8);
 }
 
-#grey {
+.grey {
   color: gray;
 }
 
@@ -204,10 +204,16 @@ h4 {
 /* social Stats
 */
 
-
+.social-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 90px;
+}
 
 .twitter, .facebook, .google {
-  display: flex;
+
   border: 0.80px solid lightgrey;
   background-color: #f4f2f2;
   padding: 40px 70px;
@@ -229,6 +235,7 @@ svg {
   background-color: rgba(99, 99, 196, 0.8);
   border-radius: 100%;
   text-align: center;
+
 }
 
 #pIcons {
@@ -238,14 +245,16 @@ svg {
   padding-top: 20;
   padding-right: 20;
   font-size: 40px;
+    margin: 5px 10px 25px 50px;
 }
 
 #socialHeading {
   color: rgba(99, 99, 196, 0.8);
   display: inline-block;
-  margin: 0;
+  margin: 5px 10px 25px 50px;
   padding: 0;
 }
+
 
 /* members */
 
@@ -254,8 +263,8 @@ svg {
 }
 
 .members-container {
-  display: flex;
-  flex-direction: column;
+display: flex;
+display: column;
   width: 50%;
   padding-left: 5px;
 
@@ -269,8 +278,8 @@ svg {
   float: right;
   height: auto;
   padding-left: 15;
-  border-right: 5;
 
+  border-right: 5;
   border-right-color: lightgrey;
   border-top-color: rgb(145, 143, 143);
   border-top: 2px solid rgb(145, 143, 143);
@@ -337,9 +346,11 @@ margin-bottom: 25px;
 }
 
 .member-information .member-profile_email {
-  color: rgb(111, 115, 186);
+  color: rgba(99, 99, 196, 0.8);
 }
-
+.member-information p {
+  color: grey;
+}
 .members-recent_activity {
   color: grey;
 }
@@ -367,6 +378,7 @@ margin-bottom: 25px;
 
 .members-user {
   margin-top: 10px;
+
 }
  #settingsBottom {
   padding-bottom: 5px;
@@ -489,24 +501,33 @@ input[name=fname] {
 .messageUserContainer {
 width: 50%;
 float: left;
-display: inline;
+
 padding-left: 5px;
 border-right: 1px;
 border-right-color: lightgrey;
 }
-@media only screen (min-width:320px) {}
+@media screen and (min-width:320px) {
+  .social-stats {
 
-@media only screen (min-width:768px) {}
 
-@media only screen (min-width:1024px) {}
-
-/* CALC STYLES */
-
-@media (min-width: 768px) {
-  [class^="col-"] {
-    float: left;
 
   }
+}
+@media only screen (min-width:1024px) {
+ .social-stats {
+   display: flex;
+   flex-direction: row;
+   width: 30%;
+ }
+
+}
+/* CALC STYLES */
+
+@media  (min-width: 768px) {
+  [class^="col-"] {
+    float: left;
+  }
+
   .col-1 {
     width: calc(100% / 12);
   }
@@ -543,6 +564,7 @@ border-right-color: lightgrey;
   .col-12 {
     width: calc(100% / 12 * 12);
   }
+
 }
 
 .members-container,
@@ -552,7 +574,8 @@ border-right-color: lightgrey;
   margin-top: 25px;
   float: left;
   padding-left: 5px;
-
+display:flex;
+flex-direction: column;
 }
 
 .settings-widget {
