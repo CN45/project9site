@@ -121,6 +121,8 @@ p {
 
 .grey {
   color: gray;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 #top-name {
@@ -180,7 +182,7 @@ h4 {
   margin: 10px;
 }
 
-.chart1 {
+.styleChart1 {
   width: 100%;
   margin: 15px auto;
   margin-left: 10px;
@@ -208,15 +210,15 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
-  height: 90px;
+
 }
 
 .twitter, .facebook, .google {
-
+  display: flex;
+  flex-wrap: wrap;
   border: 0.80px solid lightgrey;
   background-color: #f4f2f2;
-  padding: 40px 70px;
+  padding: 10px 40px;
   padding-left: 10;
   margin: 10px;
 }
@@ -230,6 +232,7 @@ svg {
 }
 
 .circle {
+  display: inline-block;
   height: 60px;
   width: 60px;
   background-color: rgba(99, 99, 196, 0.8);
@@ -241,11 +244,12 @@ svg {
 #pIcons {
   margin: 0;
   display: inline;
-  color: #535058;
+  color: grey;
   padding-top: 20;
   padding-right: 20;
   font-size: 40px;
-    margin: 5px 10px 25px 50px;
+    margin: 20px 10px 20px 10px;
+
 }
 
 #socialHeading {
@@ -253,6 +257,7 @@ svg {
   display: inline-block;
   margin: 5px 10px 25px 50px;
   padding: 0;
+
 }
 
 
@@ -400,6 +405,7 @@ margin-bottom: 25px;
   cursor: pointer;
   background-color: #707070;
   transition: background-color ease 0.3s;
+
 }
 
 .toggle:before {
@@ -432,8 +438,19 @@ margin-bottom: 25px;
 .toggle:checked:before {
   left: 48px;
 }
+.send,
+.profile {
+display: flex;
+justify-content:space-between;
 
-input[name=search] {
+
+}
+span {
+margin-right: 50px;
+margin-top: 10px;
+}
+
+input.src-user {
   border: 1px solid lightgrey;
   border-radius: 0.4em;
   width: 500px;
@@ -441,7 +458,7 @@ input[name=search] {
   margin-bottom: 30px;
 }
 
-input[name=fname] {
+input.message-user {
   border: 1px solid lightgrey;
   border-radius: 0.4em;
   width: 500px;
@@ -458,6 +475,7 @@ input[name=fname] {
 .settings__timezone {
   width: 100%;
 }
+
 
 .btn-bar button {
   margin-top: 20px;
@@ -495,23 +513,30 @@ input[name=fname] {
 .buttonsRight {
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
-
+  padding-top: 53px;
+margin-left: 0;
 }
+
 .messageUserContainer {
 width: 50%;
 float: left;
 
 padding-left: 5px;
-border-right: 1px;
-border-right-color: lightgrey;
+border-right: 2px;
+border-right-color: grey;
 }
+.src-user:hover,
+.message-user:hover {
+  background-color: rgb(222, 210, 243);
+  border-color: rgb(74, 124, 231);
+  border-left-style: groove;
+  box-shadow: 5px 10px #888888;
+}
+
 @media screen and (min-width:320px) {
-  .social-stats {
 
 
 
-  }
 }
 @media only screen (min-width:1024px) {
  .social-stats {
@@ -524,6 +549,15 @@ border-right-color: lightgrey;
 /* CALC STYLES */
 
 @media  (min-width: 768px) {
+  .members-container {
+    border-right: 1px solid lightgrey;
+  }
+  .firstchartBorder {
+  border-right: 1px solid lightgrey;
+  }
+  .messageUserContainer {
+    border-right: 1px solid lightgrey;
+  }
   [class^="col-"] {
     float: left;
   }
@@ -542,6 +576,7 @@ border-right-color: lightgrey;
   }
   .col-5 {
     width: calc(100% / 12 * 5);
+
   }
   .col-6 {
     width: calc(100% / 12 * 6);

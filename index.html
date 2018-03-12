@@ -118,11 +118,12 @@
               </script>
             </div>
           </div>
+          <div class ="styleChart1">
           <div class="col-5">
-            <div class="chart1">
+
+            <div class="firstchartBorder">
               <h2>Daily Traffic</h2>
               <canvas id="firstChart"></canvas>
-
 
 
               <canvas id="firstChart" width="55" height="55"></canvas>
@@ -175,6 +176,7 @@
               </script>
             </div>
           </div>
+</div><!-- end first chart border-->
 
           <div class="doughnut-chart1">
             <h2>Mobile Users</h2>
@@ -402,22 +404,24 @@
       </div>
       <!--activity widget end-->
 <div class ="messageUserContainer">
+
+
       <h2 id="settingsBottom"> Message User</h2>
-            <form name="searchUser" action="index.html" onsubmit="return ValidationEvent()" method="post">
-              <input type="text" id="searchUser" name="search" placeholder="Search for user">
-              <input type="text" id="messagUser" name="fname" placeholder="Message for user">
-                <div class="btn-bar"><button class="btn-a">Send</button></div>
-              </form>
+
+      <div class="searchBar"> <input class="src-user" placeholder="Search for user"></div>
+       <div class ="messageBar"><input class="message-user" placeholder="Message for user"></div>
+         <div class="btn-bar"><button class="btn-a">Send</button></div>
+
 </div>
 
 
       <div class="settings-widget">
 
         <h2 id="settingsBottom">Settings</h2>
-        <p class="grey">Send Email Notifications</p>
-        <input class="toggle" type="checkbox" />
-        <p class="grey">Set Profile to Public</p>
-        <input class="toggle" type="checkbox" />
+        <div class="send"><p class="grey">Send Email Notifications</p>
+        <span><input class="toggle" type="checkbox" ></span></div>
+        <div class="profile"><p class="grey">Set Profile to Public</p>
+        <span><input class="toggle" type="checkbox" ></span></div>
 
 
         <div class="timezone"><select class="settings__timezone">
