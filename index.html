@@ -118,15 +118,12 @@
               </script>
             </div>
           </div>
-          <div class ="styleChart1">
-          <div class="col-5">
+          <div class ="styleChart">
+<div class="col-6">
 
-            <div class="firstchartBorder">
               <h2>Daily Traffic</h2>
-              <canvas id="firstChart"></canvas>
+              <canvas id="firstChart" width: "250" height="250"></canvas>
 
-
-              <canvas id="firstChart" width="55" height="55"></canvas>
               <script>
                 var ctx = document.getElementById("firstChart").getContext('2d');
                 var firstChart = new Chart(ctx, {
@@ -174,13 +171,13 @@
                   }
                 });
               </script>
-            </div>
-          </div>
-</div><!-- end first chart border-->
 
+
+</div><!-- end first chart border-->
+    <h2>Mobile Users</h2>
           <div class="doughnut-chart1">
-            <h2>Mobile Users</h2>
-            <canvas id="doughnut-chart" width="800" height="450"></canvas>
+
+            <canvas id="doughnut-chart" width="400" height="300"></canvas>
             <script>
               new Chart(document.getElementById("doughnut-chart"), {
                 type: 'doughnut',
@@ -222,10 +219,10 @@
               });
             </script>
 
-          </div>
+    </div>
 
         </div>
-
+          </div>
 </div><!--div-all end-->
         <h4>Social Stats</h4>
     <div class="social-stats">

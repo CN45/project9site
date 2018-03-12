@@ -52,7 +52,7 @@ img {
   display: flex;
   width: 40%;
   height: 35px;
-  float: right;
+
 }
 
 .switch-ios.switch-ios {
@@ -66,12 +66,14 @@ img {
 /* alert bar*/
 
 .alert {
+
   width: 100%;
   margin: 10px;
   border-radius: 5px;
   padding: 10px;
   background-color: rgba(99, 99, 196, 0.8);
   color: white;
+
 }
 
 .primary-container {
@@ -162,6 +164,7 @@ h4 {
   color: grey;
   font-size: 18px;
   font-family: roboto;
+  padding-left: 25px;
 }
 
 .vertical-menu {
@@ -182,11 +185,14 @@ h4 {
   margin: 10px;
 }
 
-.styleChart1 {
-  width: 100%;
-  margin: 15px auto;
-  margin-left: 10px;
+
+#firstChart {
   border: 1px solid lightgrey;
+border-right: 2 px solid lightgrey;
+padding-left: 20px;
+}
+.col-6 {
+  border-right: 1px solid lightgrey;
 }
 
 .line-chart {
@@ -201,6 +207,7 @@ h4 {
   margin: 10px auto;
   float: right;
   border: 1px solid lightgrey;
+
 }
 
 /* social Stats
@@ -210,7 +217,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
+padding-left: 20px;
 }
 
 .twitter, .facebook, .google {
@@ -453,7 +460,7 @@ margin-top: 10px;
 input.src-user {
   border: 1px solid lightgrey;
   border-radius: 0.4em;
-  width: 500px;
+  width: 450px;
   height: 40px;
   margin-bottom: 30px;
 }
@@ -461,7 +468,7 @@ input.src-user {
 input.message-user {
   border: 1px solid lightgrey;
   border-radius: 0.4em;
-  width: 500px;
+  width: 450px;
   height: 150px;
 }
 
@@ -479,7 +486,7 @@ input.message-user {
 
 .btn-bar button {
   margin-top: 20px;
-  width: 500px;
+  width: 450px;
   padding: 10px;
   border-radius: 0.3em;
   background-color: rgba(99, 99, 196, 0.8);
@@ -521,7 +528,7 @@ margin-left: 0;
 width: 50%;
 float: left;
 
-padding-left: 5px;
+padding-left: 25px;
 border-right: 2px;
 border-right-color: grey;
 }
@@ -552,9 +559,7 @@ border-right-color: grey;
   .members-container {
     border-right: 1px solid lightgrey;
   }
-  .firstchartBorder {
-  border-right: 1px solid lightgrey;
-  }
+
   .messageUserContainer {
     border-right: 1px solid lightgrey;
   }
@@ -608,14 +613,14 @@ border-right-color: grey;
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-top: 25px;
   float: left;
-  padding-left: 5px;
+  padding-left: 25px;
 display:flex;
 flex-direction: column;
 }
 
 .settings-widget {
   width: 50%;
-  padding-left: 20px;
+  padding-left: 25px;
 
 }
 .col-4 {
