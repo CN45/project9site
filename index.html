@@ -53,24 +53,24 @@
           <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
           <strong>Danger! Hit X to close. </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
         </div>
-      <div class="dashAll">
-        <div class="switch-toggle switch-ios">
-          <input id="hour3" name="view3" type="radio" checked>
-          <label for="hour3" onclick="">Hourly</label>
+        <div class="dashAll">
+          <div class="switch-toggle switch-ios">
+            <input id="hour3" name="view3" type="radio" checked>
+            <label for="hour3" onclick="">Hourly</label>
 
-          <input id="day3" name="view3" type="radio">
-          <label for="day3" onclick="">Daily</label>
+            <input id="day3" name="view3" type="radio">
+            <label for="day3" onclick="">Daily</label>
 
-          <input id="week3" name="view3" type="radio">
-          <label for="week3" onclick="">Weekly</label>
+            <input id="week3" name="view3" type="radio">
+            <label for="week3" onclick="">Weekly</label>
 
 
-          <input id="month3" name="view3" type="radio">
-          <label for="month3" onclick="">Monthly</label>
-          <a></a>
+            <input id="month3" name="view3" type="radio">
+            <label for="month3" onclick="">Monthly</label>
+            <a></a>
 
+          </div>
         </div>
-      </div>
 
 
 
@@ -80,7 +80,7 @@
         <div class="row">
           <div class="col-12">
             <div class="line-chart1">
-  <h2>Traffic</h2>
+              <h2>Traffic</h2>
               <canvas id="line-chart" width="800" height="450"></canvas>
               <script>
                 new Chart(document.getElementById("line-chart"), {
@@ -118,8 +118,8 @@
               </script>
             </div>
           </div>
-          <div class ="styleChart">
-<div class="col-6">
+          <div class="styleChart">
+            <div class="col-6">
 
               <h2>Daily Traffic</h2>
               <canvas id="firstChart" width: "250" height="250"></canvas>
@@ -173,67 +173,69 @@
               </script>
 
 
-</div><!-- end first chart border-->
-    <h2>Mobile Users</h2>
-          <div class="doughnut-chart1">
+            </div>
+            <!-- end first chart border-->
+            <h2>Mobile Users</h2>
+            <div class="doughnut-chart1">
 
-            <canvas id="doughnut-chart" width="400" height="300"></canvas>
-            <script>
-              new Chart(document.getElementById("doughnut-chart"), {
-                type: 'doughnut',
-                data: {
-                  labels: ["Phones", "Tablet", "Desktop"],
-                  position: 'bottom',
-                  datasets: [{
-                    label: "Mobile Users",
-                    backgroundColor: ["#81D2A8", "#67ABB1", "rgba(99, 99, 196, 0.8)"],
-                    data: [600, 500, 2500, ],
-                    borderColor: "#80b6f4"
+              <canvas id="doughnut-chart" width="400" height="300"></canvas>
+              <script>
+                new Chart(document.getElementById("doughnut-chart"), {
+                  type: 'doughnut',
+                  data: {
+                    labels: ["Phones", "Tablet", "Desktop"],
+                    position: 'bottom',
+                    datasets: [{
+                      label: "Mobile Users",
+                      backgroundColor: ["#81D2A8", "#67ABB1", "rgba(99, 99, 196, 0.8)"],
+                      data: [600, 500, 2500, ],
+                      borderColor: "#80b6f4"
 
-                  }]
-                },
-                options: {
+                    }]
+                  },
+                  options: {
 
-                  legend: {
-                    position: 'right',
-                    labels: {
-                      boxWidth: 20,
-                      boxHeight: 4,
+                    legend: {
+                      position: 'right',
+                      labels: {
+                        boxWidth: 20,
+                        boxHeight: 4,
 
+                      }
+                    },
+                    animation: {
+                      easing: "easeOutCirc"
+                    },
+                    title: {
+                      display: false,
+                      text: 'Mobile Users',
+                      verticalAlign: 'left',
+                      position: 'top',
+                      fontColor: 'grey',
+                      fontFamily: 'Roboto',
+                      fontSize: 16
                     }
-                  },
-                  animation: {
-                    easing: "easeOutCirc"
-                  },
-                  title: {
-                    display: false,
-                    text: 'Mobile Users',
-                    verticalAlign: 'left',
-                    position: 'top',
-                    fontColor: 'grey',
-                    fontFamily: 'Roboto',
-                    fontSize: 16
                   }
-                }
 
-              });
-            </script>
+                });
+              </script>
 
-    </div>
+            </div>
 
-        </div>
           </div>
-</div><!--div-all end-->
-        <h4>Social Stats</h4>
-    <div class="social-stats">
+        </div>
+      </div>
+      <!--div-all end-->
+      <h4>Social Stats</h4>
+      <div class="social-stats">
 
-          <div class="twitter">
+        <div class="twitter">
 
-            <div class="circle">
+          <div class="circle">
 
-              <?xml version="1.0" encoding="utf-8"?>
-              <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
   <path d="M32,3.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6C25.8,0.8,24,0,22.2,0
   	c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5C10.3,7.8,5.5,5.2,2.2,1.2c-0.6,1-0.9,2.1-0.9,3.3c0,2.3,1.2,4.3,2.9,5.5
   	c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1
@@ -241,11 +243,11 @@
   	c0-0.3,0-0.6,0-0.8C30,5.6,31.1,4.4,32,3.1z"/>
   </svg>
 
-  </div>
-            <h4 id="socialHeading">Twitter</h4>
-            <p id="pIcons">10,345</p>
-
           </div>
+          <h4 id="socialHeading">Twitter</h4>
+          <p id="pIcons">10,345</p>
+
+        </div>
 
 
 
@@ -262,11 +264,11 @@
 
 
 
-      <div class="google">
-        <div class="circle">
-          <?xml version="1.0" encoding="utf-8"?>
-          <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+        <div class="google">
+          <div class="circle">
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
       <path d="M17.7,25.7c0-0.3,0-0.5-0.1-0.8c-0.1-0.2-0.1-0.5-0.2-0.7c-0.1-0.2-0.2-0.4-0.3-0.7c-0.2-0.2-0.3-0.4-0.4-0.6
       	c-0.1-0.2-0.3-0.3-0.5-0.6c-0.2-0.2-0.4-0.4-0.5-0.5c-0.1-0.1-0.3-0.3-0.6-0.5c-0.3-0.2-0.5-0.4-0.6-0.4s-0.3-0.2-0.6-0.4
       	c-0.3-0.2-0.5-0.4-0.6-0.4c-0.2,0-0.5,0-1,0c-0.7,0-1.4,0-2,0.1c-0.7,0.1-1.4,0.2-2.1,0.5c-0.7,0.2-1.3,0.5-1.9,0.9s-1,0.8-1.3,1.4
@@ -284,10 +286,10 @@
       	c-1.9,0-3.5-0.6-4.9-1.9c-1.4-1.3-2-2.8-2-4.7c0-1.8,0.6-3.4,1.8-4.8C6,1.7,7.5,0.8,9.3,0.4C10.5,0.1,11.7,0,12.9,0z M32.8,4.9v2.5
       	h-4.9v4.9h-2.5V7.4h-4.9V4.9h4.9V0h2.5v4.9H32.8z"/>
       </svg>
+          </div>
+          <h4 id="socialHeading">Google+</h4>
+          <p id="pIcons">8,450</p>
         </div>
-        <h4 id="socialHeading">Google+</h4>
-        <p id="pIcons">8,450</p>
-</div>
       </div>
       <!--End settings widget-->
 
@@ -400,25 +402,27 @@
         </div>
       </div>
       <!--activity widget end-->
-<div class ="messageUserContainer">
+      <div class="messageUserContainer">
 
 
-      <h2 id="settingsBottom"> Message User</h2>
+        <h2 id="settingsBottom"> Message User</h2>
 
-      <div class="searchBar"> <input class="src-user" placeholder="Search for user"></div>
-       <div class ="messageBar"><input class="message-user" placeholder="Message for user"></div>
-         <div class="btn-bar"><button class="btn-a">Send</button></div>
+        <div class="searchBar"> <input class="src-user" placeholder="Search for user"></div>
+        <div class="messageBar"><input class="message-user" placeholder="Message for user"></div>
+        <div class="btn-bar"><button class="btn-a">Send</button></div>
 
-</div>
+      </div>
 
 
       <div class="settings-widget">
 
         <h2 id="settingsBottom">Settings</h2>
-        <div class="send"><p class="grey">Send Email Notifications</p>
-        <span><input class="toggle" type="checkbox" ></span></div>
-        <div class="profile"><p class="grey">Set Profile to Public</p>
-        <span><input class="toggle" type="checkbox" ></span></div>
+        <div class="send">
+          <p class="grey">Send Email Notifications</p>
+          <span><input class="toggle" type="checkbox" ></span></div>
+        <div class="profile">
+          <p class="grey">Set Profile to Public</p>
+          <span><input class="toggle" type="checkbox" ></span></div>
 
 
         <div class="timezone"><select class="settings__timezone">
@@ -441,10 +445,10 @@
       </div>
 
 
-      </div>
-      <!--main content with nav-->
     </div>
-    <!--end main content div -->
+    <!--main content with nav-->
+  </div>
+  <!--end main content div -->
 
   <!-- body end-->
 

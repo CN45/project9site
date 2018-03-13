@@ -11,7 +11,6 @@ img {
   fontColor: grey;
 }
 
-
 .dashAll {
   display: flex;
   flex-direction: column;
@@ -45,10 +44,9 @@ img {
 }
 
 .switch-toggle.switch-ios {
-margin-left: 70%;
+  margin-left: 70%;
   width: 30%;
   height: 35px;
-
 }
 
 .switch-ios.switch-ios {
@@ -62,14 +60,12 @@ margin-left: 70%;
 /* alert bar*/
 
 .alert {
-
   width: 100%;
   margin: 10px;
   border-radius: 5px;
   padding: 10px;
   background-color: rgba(99, 99, 196, 0.8);
   color: white;
-
 }
 
 .primary-container {
@@ -182,12 +178,12 @@ h4 {
   margin: 10px;
 }
 
-
 #firstChart {
   border: 1px solid lightgrey;
-border-right: 2 px solid lightgrey;
-padding-left: 20px;
+  border-right: 2 px solid lightgrey;
+  padding-left: 20px;
 }
+
 .col-6 {
   border-right: 1px solid lightgrey;
 }
@@ -204,7 +200,6 @@ padding-left: 20px;
   margin: 10px auto;
   float: right;
   border: 1px solid lightgrey;
-
 }
 
 /* social Stats
@@ -214,7 +209,7 @@ padding-left: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-padding-left: 20px;
+  padding-left: 20px;
 }
 
 .twitter, .facebook, .google {
@@ -242,7 +237,6 @@ svg {
   background-color: rgba(99, 99, 196, 0.8);
   border-radius: 100%;
   text-align: center;
-
 }
 
 #pIcons {
@@ -252,8 +246,7 @@ svg {
   padding-top: 20;
   padding-right: 20;
   font-size: 40px;
-    margin: 20px 10px 20px 10px;
-
+  margin: 20px 10px 20px 10px;
 }
 
 #socialHeading {
@@ -261,9 +254,7 @@ svg {
   display: inline-block;
   margin: 5px 10px 25px 50px;
   padding: 0;
-
 }
-
 
 /* members */
 
@@ -272,34 +263,30 @@ svg {
 }
 
 .members-container {
-display: flex;
-display: column;
+  display: flex;
+  display: column;
   width: 50%;
   padding-left: 5px;
-
 }
 
 .activity-widget {
-    margin-top: 25px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   width: 50%;
   float: right;
   height: auto;
   padding-left: 15;
-
   border-right: 5;
   border-right-color: lightgrey;
   border-top-color: rgb(145, 143, 143);
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
-margin-bottom: 25px;
-
-
+  margin-bottom: 25px;
 }
+
 .activity-widget h2 {
   margin: 0;
-
 }
 
 .activity-widget h1, .members-block h1 {
@@ -307,14 +294,12 @@ margin-bottom: 25px;
 }
 
 .activity-widget h1 {
-
   border-top-color: lightgrey;
 }
 
 .members-block {
   float: left;
   width: 100%;
-
 }
 
 .member:last-child {
@@ -329,11 +314,13 @@ margin-bottom: 25px;
   border-bottom: .9px solid rgb(178, 178, 178);
 }
 */
+
 .member-wrapper {
   width: 100%;
   padding: 20px 0;
   border-bottom: 1px solid lightgrey;
 }
+
 .member-wrapper_profile {
   float: left;
 }
@@ -357,9 +344,11 @@ margin-bottom: 25px;
 .member-information .member-profile_email {
   color: rgba(99, 99, 196, 0.8);
 }
+
 .member-information p {
   color: grey;
 }
+
 .members-recent_activity {
   color: grey;
 }
@@ -387,12 +376,13 @@ margin-bottom: 25px;
 
 .members-user {
   margin-top: 10px;
-
 }
- #settingsBottom {
+
+#settingsBottom {
   padding-bottom: 5px;
   padding-left: 5px;
 }
+
 /* Toggle at bottom*/
 
 .toggle {
@@ -409,7 +399,6 @@ margin-bottom: 25px;
   cursor: pointer;
   background-color: #707070;
   transition: background-color ease 0.3s;
-
 }
 
 .toggle:before {
@@ -442,16 +431,14 @@ margin-bottom: 25px;
 .toggle:checked:before {
   left: 48px;
 }
-.send,
-.profile {
-display: flex;
-justify-content:space-between;
 
-
+.send, .profile {
+  display: flex;
+  justify-content: space-between;
 }
-span {
-margin-right: 50px;
 
+span {
+  margin-right: 50px;
 }
 
 input.src-user {
@@ -473,13 +460,12 @@ input.message-user {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-  height:  45px;
+  height: 45px;
 }
 
 .settings__timezone {
   width: 100%;
 }
-
 
 .btn-bar button {
   margin-top: 20px;
@@ -518,54 +504,46 @@ input.message-user {
   display: flex;
   justify-content: space-around;
   padding-top: 53px;
-margin-left: 0;
+  margin-left: 0;
 }
 
 .messageUserContainer {
-width: 50%;
-float: left;
-
-padding-left: 25px;
-border-right: 2px;
-border-right-color: grey;
+  width: 50%;
+  float: left;
+  padding-left: 25px;
+  border-right: 2px;
+  border-right-color: grey;
 }
-.src-user:hover,
-.message-user:hover {
+
+.src-user:hover, .message-user:hover {
   background-color: rgb(222, 210, 243);
   border-color: rgb(74, 124, 231);
   border-left-style: groove;
   box-shadow: 5px 10px #888888;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px) {}
 
-
-
-}
 @media only screen (min-width:1024px) {
- .social-stats {
-   display: flex;
-   flex-direction: row;
-   width: 30%;
- }
-
+  .social-stats {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+  }
 }
+
 /* CALC STYLES */
 
-@media  (min-width: 768px) {
-
-
+@media (min-width: 768px) {
   .members-container {
     border-right: 1px solid lightgrey;
   }
-
   .messageUserContainer {
     border-right: 1px solid lightgrey;
   }
   [class^="col-"] {
     float: left;
   }
-
   .col-1 {
     width: calc(100% / 12);
   }
@@ -580,7 +558,6 @@ border-right-color: grey;
   }
   .col-5 {
     width: calc(100% / 12 * 5);
-
   }
   .col-6 {
     width: calc(100% / 12 * 6);
@@ -603,32 +580,31 @@ border-right-color: grey;
   .col-12 {
     width: calc(100% / 12 * 12);
   }
-
 }
 
-.members-container,
-.activity-widget {
+.members-container, .activity-widget {
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-top: 25px;
   float: left;
   padding-left: 25px;
-display:flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .settings-widget {
   width: 50%;
   padding-left: 25px;
-
 }
+
 .col-4 {
   padding-left: 10px;
-
 }
+
 .members-block, .messages-container {
   float: left;
 }
+
 form {
   margin-top: 20px;
 }
