@@ -207,7 +207,7 @@ h4 {
 
 .social-stats {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   padding-left: 20px;
 }
@@ -522,7 +522,6 @@ input.message-user {
   box-shadow: 5px 10px #888888;
 }
 
-@media screen and (min-width:320px) {}
 
 @media only screen (min-width:1024px) {
   .social-stats {
@@ -535,6 +534,10 @@ input.message-user {
 /* CALC STYLES */
 
 @media (min-width: 768px) {
+  .social-stats {
+    display: flex;
+    flex-direction: row;
+  }
   .members-container {
     border-right: 1px solid lightgrey;
   }
