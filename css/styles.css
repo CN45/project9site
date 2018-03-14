@@ -183,8 +183,10 @@ h4 {
   display: block;
   margin: 0;
 }
-#firstChart {
-float: left;
+.firstChart {
+  display: flex;
+  flex-direction: column;
+  float: left;
   width: 50%;
   border: 1px solid lightgrey;
   border-right: 2 px solid lightgrey;
@@ -552,17 +554,22 @@ input.message-user {
   }
   .charts {
 display: flex;
-justify-content: space-around;
+flex-direction: row;
   }
+
   .firstChart {
     display:flex;
     flex-direction: row;
+
     width: 50%;
+
   }
   doughnut-chart1 {
     display: flex;
     flex-direction: row;
+
     width: 50%;
+
   }
   .members-container {
     border-right: 1px solid lightgrey;
