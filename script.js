@@ -1,7 +1,5 @@
-
-
-
-
+/* Functionality for the Message User widget
+*/
 var src = document.querySelector('.src-user');
 var msg = document.querySelector('.message-user');
 var buttonA = document.querySelector('.btn-bar');
