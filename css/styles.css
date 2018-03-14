@@ -560,7 +560,6 @@ flex-direction: row;
   .firstChart {
     display:flex;
     flex-direction: row;
-
     width: 50%;
 
   }
