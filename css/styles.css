@@ -179,12 +179,15 @@ h4 {
 }
 
 #firstChart {
+
   border: 1px solid lightgrey;
   border-right: 2 px solid lightgrey;
   padding-left: 20px;
 }
 
 .col-6 {
+
+  width: 50%;
   border-right: 1px solid lightgrey;
 }
 
@@ -198,8 +201,8 @@ h4 {
 .doughnut-chart1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
+
+  width: 50%;
   margin: 10px auto;
   float: right;
   border: 1px solid lightgrey;
@@ -587,6 +590,10 @@ input.message-user {
   .col-12 {
     width: calc(100% / 12 * 12);
   }
+  .doughnut-chart1 {
+    width: 50%;
+  }
+
 }
 
 .members-container, .activity-widget {
