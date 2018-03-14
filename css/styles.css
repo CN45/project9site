@@ -150,6 +150,7 @@ h2 {
   font-size: 20px;
   font-family: roboto;
   display: inline;
+  padding-top: 5px;
 }
 
 h4 {
@@ -179,10 +180,12 @@ h4 {
 }
 
 #firstChart {
-
+width: 100%;
   border: 1px solid lightgrey;
   border-right: 2 px solid lightgrey;
   padding-left: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .col-6 {
@@ -201,8 +204,7 @@ h4 {
 .doughnut-chart1 {
   display: flex;
   flex-direction: column;
-
-  width: 50%;
+  width: 100%;
   margin: 10px auto;
   float: right;
   border: 1px solid lightgrey;
@@ -533,7 +535,7 @@ input.message-user {
   .social-stats {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 100%;
   }
 }
 
@@ -543,7 +545,9 @@ input.message-user {
   .social-stats {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
+
 
   .members-container {
     border-right: 1px solid lightgrey;
