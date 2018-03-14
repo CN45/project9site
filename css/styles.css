@@ -184,8 +184,6 @@ h4 {
   margin: 0;
 }
 #firstChart {
-display:flex;
-flex-direction: column;
 float: left;
   width: 50%;
   border: 1px solid lightgrey;
