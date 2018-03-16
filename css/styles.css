@@ -279,11 +279,14 @@ svg {
 #member-activity {
   color: rgba(99, 99, 196, 0.8);
 }
-
+#membership {
+  display: flex;
+    flex-direction: column;
+}
 .members-container {
   display: flex;
-  display: column;
-  width: 50%;
+  flex-direction: column;
+  width: 100%;
   padding-left: 5px;
 }
 
@@ -291,7 +294,7 @@ svg {
   margin-top: 25px;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   float: right;
   height: auto;
   padding-left: 15;
@@ -515,20 +518,24 @@ input.message-user {
 }
 
 .settings-widget {
-  float: right;
+  display: flex;
+  flex-direction: column;
+width: 100%;
 }
 
 .buttonsRight {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-content: center;
+  width: 90%;
   padding-top: 53px;
   margin-left: 0;
 }
 
 .messageUserContainer {
-  width: 50%;
-  float: left;
-  padding-left: 25px;
+  width: 100%;
+
+  padding-left: 2px;
   border-right: 2px;
   border-right-color: grey;
 }
@@ -581,7 +588,6 @@ input.message-user {
     border-right: 1px solid lightgrey;
   }
 
-}
 
 .members-container, .activity-widget {
   border-top: 2px solid rgb(145, 143, 143);
@@ -608,4 +614,5 @@ input.message-user {
 
 form {
   margin-top: 20px;
+  }
 }
