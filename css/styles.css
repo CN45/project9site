@@ -52,8 +52,9 @@ img {
 }
 
 .switch-toggle.switch-ios {
-  margin-left: 70%;
-  width: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   height: 35px;
 }
 
