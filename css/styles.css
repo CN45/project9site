@@ -44,7 +44,7 @@ justify-content: flex-end;
 }
 
 .body {
-display: inline-block;
+display: flex;
 }
 
 .switch-toggle.switch-ios {
@@ -219,7 +219,6 @@ donutChart {
 
 .doughnut-chart1 {
   display: block;
-
   width: 100%;
   margin: 10px auto;
   float: left;
