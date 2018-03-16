@@ -16,10 +16,14 @@ img {
   flex-direction: column;
 }
 */
+
+.main-content {
+  width: 87.5%;
+}
+
 .dashboard-search_box, .search-bar {
   display: flex;
   padding-bottom: 10;
-
 }
 
 .dashboard-search_box {
@@ -32,8 +36,8 @@ img {
 
 .search-bar input {
   display: flex;
-flex-direction: row;
-justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
   height: 30px;
   width: 500px;
 }
@@ -44,7 +48,7 @@ justify-content: flex-end;
 }
 
 .body {
-display: flex;
+  display: flex;
 }
 
 .switch-toggle.switch-ios {
@@ -64,21 +68,13 @@ display: flex;
 /* alert bar*/
 
 .alert {
-
-display: inline-block;
-
+  display: inline-block;
   width: 100%;
   margin: 10px;
   border-radius: 5px;
   padding: 10px;
   background-color: rgba(99, 99, 196, 0.8);
   color: white;
-}
-
-.primary-container {
-  display: inline-block;
-
-  padding-left: 50px;
 }
 
 .closebtn {
@@ -153,7 +149,6 @@ h1 {
 }
 
 h2 {
-
   color: grey;
   font-size: 20px;
   font-family: roboto;
@@ -193,8 +188,8 @@ h4 {
   margin: 0;
 }
 */
-.barChart,
-donutChart {
+
+.barChart, donutChart {
   display: inline-block;
   width: 100%;
   border: 1px solid lightgrey;
@@ -558,15 +553,13 @@ input.message-user {
 @media (min-width: 768px) {
   .body {
     display: flex;
-    flex-direction: column;
     width: %;
   }
-.primary-container {
-    display:inline-block;
+  .primary-container {
+    display: inline-block;
     margin-right: 0;
     padding-right: 0;
   }
-
   .search-bar, .dashboard-search_box {
     display: flex;
   }
@@ -575,30 +568,11 @@ input.message-user {
     flex-direction: row;
     width: 100%;
   }
-  /*.charts {
-    display:flex;
-    flex-direction: row;
 
-  }
-  */
-/*.line-chart {
-  display: block;
-
-  width: 100%;
-}
-*/
-  /*.firstChart {
-    display:flex;
-    flex-direction: row;
-    width: 50%;
-
-  }
-  */
   .doughnut-chart1 {
     display: flex;
-justify-content: flex-end;
+    justify-content: flex-end;
     width: 50%;
-
   }
   .members-container {
     border-right: 1px solid lightgrey;
@@ -606,48 +580,7 @@ justify-content: flex-end;
   .messageUserContainer {
     border-right: 1px solid lightgrey;
   }
-  [class^="col-"] {
-    float: left;
-  }
-  .col-1 {
-    width: calc(100% / 12);
-  }
-  .col-2 {
-    width: calc(100% / 12 * 2);
-  }
-  .col-3 {
-    width: calc(100% / 12 * 3);
-  }
-  .col-4 {
-    width: calc(100% / 12 * 4);
-  }
-  .col-5 {
-    width: calc(100% / 12 * 5);
-  }
-  .col-6 {
-    width: calc(100% / 12 * 6);
-  }
-  .col-7 {
-    width: calc(100% / 12 * 7);
-  }
-  .col-8 {
-    width: calc(100% / 12 * 8);
-  }
-  .col-9 {
-    width: calc(100% / 12 * 9);
-  }
-  .col-10 {
-    width: calc(100% / 12 * 10);
-  }
-  .col-11 {
-    width: calc(100% / 12 * 11);
-  }
-  .col-12 {
-    width: calc(100% / 12 * 12);
-  }
-  .doughnut-chart1 {
-    width: 50%;
-  }
+
 }
 
 .members-container, .activity-widget {
