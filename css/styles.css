@@ -11,24 +11,29 @@ img {
   fontColor: grey;
 }
 
-.dashAll {
+/*.dashAll {
   display: flex;
   flex-direction: column;
 }
-
+*/
 .dashboard-search_box, .search-bar {
   display: flex;
-  justify-content: space-between;
   padding-bottom: 10;
+
 }
 
 .dashboard-search_box {
+  display: flex;
+  height: 5vh;
+  margin-left: 50px;
   border-bottom: 1px solid lightgrey;
   background-color: #faf8f8;
 }
 
 .search-bar input {
-  display: inline;
+  display: flex;
+flex-direction: row;
+justify-content: flex-end;
   height: 30px;
   width: 500px;
 }
@@ -39,8 +44,7 @@ img {
 }
 
 .body {
-  display: flex;
-  flex-direction: row;
+display: inline-block;
 }
 
 .switch-toggle.switch-ios {
@@ -60,6 +64,9 @@ img {
 /* alert bar*/
 
 .alert {
+
+display: inline-block;
+
   width: 100%;
   margin: 10px;
   border-radius: 5px;
@@ -69,9 +76,9 @@ img {
 }
 
 .primary-container {
-  display: block;
-  flex-direction: row;
-  padding-left: 20px;
+  display: inline-block;
+
+  padding-left: 50px;
 }
 
 .closebtn {
@@ -146,11 +153,13 @@ h1 {
 }
 
 h2 {
+
   color: grey;
   font-size: 20px;
   font-family: roboto;
   display: inline;
   padding-top: 5px;
+  padding-left: 50px;
 }
 
 h4 {
@@ -179,15 +188,15 @@ h4 {
   margin: 10px;
 }
 
-.charts {
+/*.charts {
   display: block;
   margin: 0;
 }
-.firstChart {
-  display: flex;
-  flex-direction: column;
-  float: left;
-  width: 50%;
+*/
+.barChart,
+donutChart {
+  display: inline-block;
+  width: 100%;
   border: 1px solid lightgrey;
   border-right: 2 px solid lightgrey;
   padding-left: 20px;
@@ -201,6 +210,7 @@ h4 {
 }
 
 .line-chart {
+  display: block;
   width: 100%;
   margin: 10px auto;
   margin-left: 10px;
@@ -208,8 +218,8 @@ h4 {
 }
 
 .doughnut-chart1 {
-  display: flex;
-  flex-direction: column;
+  display: block;
+
   width: 100%;
   margin: 10px auto;
   float: left;
@@ -547,26 +557,47 @@ input.message-user {
 /* CALC STYLES */
 
 @media (min-width: 768px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    width: %;
+  }
+.primary-container {
+    display:inline-block;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .search-bar, .dashboard-search_box {
+    display: flex;
+  }
   .social-stats {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
-  .charts {
-display: flex;
-flex-direction: row;
-  }
+  /*.charts {
+    display:flex;
+    flex-direction: row;
 
-  .firstChart {
+  }
+  */
+/*.line-chart {
+  display: block;
+
+  width: 100%;
+}
+*/
+  /*.firstChart {
     display:flex;
     flex-direction: row;
     width: 50%;
 
   }
-  doughnut-chart1 {
+  */
+  .doughnut-chart1 {
     display: flex;
-    flex-direction: row;
-
+justify-content: flex-end;
     width: 50%;
 
   }
