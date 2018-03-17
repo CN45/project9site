@@ -265,7 +265,8 @@ svg {
   padding-top: 20;
   padding-right: 20;
   font-size: 40px;
-  margin: 20px 10px 20px 10px;
+  padding-left: 100px;
+
 }
 
 #socialHeading {
@@ -340,8 +341,7 @@ svg {
 
 .member-wrapper {
   width: 100%;
-
-  padding: 20px 0;
+  padding: 5px 0;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -467,11 +467,9 @@ span {
 }
 
 input.src-user {
-  border: 1px solid lightgrey;
-  border-radius: 0.4em;
+
   width: 100%
-  height: 40px;
-  margin-bottom: 30px;
+
 }
 
 input.message-user {
@@ -495,7 +493,7 @@ input.message-user {
 
 .btn-bar button {
   margin-top: 20px;
-  width: 300px;
+  width: 100%;
   padding: 10px;
   border-radius: 0.3em;
   background-color: rgba(99, 99, 196, 0.8);
@@ -534,7 +532,7 @@ border-top: 2px solid grey;
   display: flex;
   justify-content: space-between;
   align-content: center;
-  width: 40%;
+  width: 100%;
   padding-top: 10px;
   margin-left: 0;
 }
