@@ -561,7 +561,7 @@ border-top: 2px solid grey;
   }
 }
 
-/* CALC STYLES */
+
 
 @media (min-width: 768px) {
   .body {
@@ -571,8 +571,8 @@ border-top: 2px solid grey;
   body {
     width: 100%;
     margin-right: 20px;
-
   }
+
   .primary-container {
     display: inline-block;
     margin-right:0;
@@ -604,22 +604,28 @@ width: 100%;
 
 }
   .doughnut-chart1 {
-    display: flex;
-    justify-content: flex-end;
     width: 50%;
+    float:right;
+    padding: 10px;
   }
+
   .members-container {
     border-right: 1px solid lightgrey;
   }
   .messageUserContainer {
     clear: both;
     border-right: 1px solid lightgrey;
+    padding-top: 10px;
   }
 
 #membership {
-
 width: 50%;
 float: left;
+}
+
+.barChart {
+float: left;
+  width: 50%;
 }
 
 .members-container {
@@ -642,17 +648,31 @@ display: inline;
 
 }
 
+input.src-user,
+input.message-user {
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+.btn-bar button{
+  width: 90%;
+}
 .settings-widget {
   width: 50%;
-  padding-left: 25px;
+  padding-left: 20px;
   float: right;
 
 }
 .messageUserContainer {
   width: 50%;
   float:left;
-
 }
+
+.line-chart {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+
 .barChart {
   float: left;
   width: 50%;
@@ -661,7 +681,10 @@ donutChart {
   float:right;
   width: 50%;
 }
-
+.inlineCharts {
+  display: inline;
+  width: 50%;
+}
 .col-4 {
   padding-left: 10px;
 }
