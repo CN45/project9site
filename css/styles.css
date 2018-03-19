@@ -638,17 +638,18 @@ display: inline;
   width: 50%;
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
-  margin-left: 12px;
+
   padding-left: 25px;
 
 }
 .activity-widget {
   float: none;
-  display: inline;
   width: 50%;
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-left: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
 
@@ -683,8 +684,7 @@ input.message-user {
 
 .line-chart {
   display: block;
-  width: 100%;
-  margin: 10px auto;
+}
 
 .barChart {
   float: left;
