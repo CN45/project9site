@@ -45,6 +45,7 @@ new Chart(document.getElementById("line-chart"), {
       fontColor: '#9B9AA1',
       position: "top"
     },
+
   }
 });
 
