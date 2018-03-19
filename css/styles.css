@@ -572,7 +572,11 @@ border-top: 2px solid grey;
     width: 100%;
     margin-right: 20px;
   }
-
+.alert {
+  width: 90%;
+display: inline-block;
+margin-left: 10%;
+}
   .primary-container {
     display: inline-block;
     margin-right:0;
@@ -656,6 +660,15 @@ input.message-user {
 }
 .btn-bar button{
   width: 90%;
+}
+.buttonsRight {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-left: 0;
 }
 .settings-widget {
   width: 50%;
