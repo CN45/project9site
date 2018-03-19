@@ -39,7 +39,7 @@ img {
   flex-direction: row;
   justify-content: center;
   height: 30px;
-  width:300px;
+  width: 300px;
   padding-right: 15px;
 }
 
@@ -210,7 +210,6 @@ h4 {
   display: block;
   width: 100%;
   margin: 10px auto;
-
   border: 1px solid lightgrey;
 }
 
@@ -267,7 +266,6 @@ svg {
   padding-right: 20;
   font-size: 40px;
   padding-left: 100px;
-
 }
 
 #socialHeading {
@@ -282,11 +280,13 @@ svg {
 #member-activity {
   color: rgba(99, 99, 196, 0.8);
 }
+
 #membership {
   display: flex;
-    flex-direction: column;
-    border-top: 2px solid grey;
+  flex-direction: column;
+  border-top: 2px solid grey;
 }
+
 .members-container {
   display: flex;
   flex-direction: column;
@@ -468,9 +468,7 @@ span {
 }
 
 input.src-user {
-
   width: 100%
-
 }
 
 input.message-user {
@@ -503,10 +501,8 @@ input.message-user {
 }
 
 .btn button {
-
   height: 40px;
   margin: 10px;
-
   padding: 10px 10px 10px 20px;
   border-radius: 0.3em;
   margin-left: 0;
@@ -515,7 +511,6 @@ input.message-user {
   font-size: 0.75em;
   font-weight: bold;
   width: 150px;
-
 }
 
 .btn button:hover, .btn-bar button:hover {
@@ -525,8 +520,8 @@ input.message-user {
 .settings-widget {
   display: flex;
   flex-direction: column;
-width: 100%;
-border-top: 2px solid grey;
+  width: 100%;
+  border-top: 2px solid grey;
 }
 
 .buttonsRight {
@@ -561,8 +556,6 @@ border-top: 2px solid grey;
   }
 }
 
-
-
 @media (min-width: 768px) {
   .body {
     display: flex;
@@ -572,15 +565,14 @@ border-top: 2px solid grey;
     width: 100%;
     margin-right: 20px;
   }
-
-.alert {
-  width: 90%;
-display: inline-block;
-margin-left: 10%;
-}
+  .alert {
+    width: 90%;
+    display: inline-block;
+    margin-left: 10%;
+  }
   .primary-container {
     display: inline-block;
-    margin-right:0;
+    margin-right: 0;
     padding-right: 0;
   }
   .search-bar, .dashboard-search_box {
@@ -590,7 +582,6 @@ margin-left: 10%;
     padding-right: 20px;
     width: 100%;
   }
-
   .switch-toggle.switch-ios {
     margin-left: 50%;
     margin-right: 20%;
@@ -603,127 +594,113 @@ margin-left: 10%;
     justify-content: space-between;
     width: 100%;
   }
-
-.main-content {
-width: 100%;
-
-}
+  .main-content {
+    width: 100%;
+  }
   .doughnut-chart1 {
     width: 50%;
-    float:right;
-
+    float: right;
     padding-bottom: 45px;
     margin-top: 0;
     margin-bottom: 20px;
   }
-#doughnut-chart {
-  border: 0;
-}
-
+  #doughnut-chart {
+    border: 0;
+  }
   .members-container {
     border-right: 1px solid lightgrey;
     border: 1px solid lightgrey;
   }
-
   .messageUserContainer {
     clear: both;
     border-right: 1px solid lightgrey;
     padding-top: 10px;
   }
-
-#membership {
-width: 50%;
-float: left;
-border-right: 2px solid lightgrey;
-}
-
-.barChart {
-float: left;
-  width: 50%;
-}
-
-.members-container {
-  margin-right: 0;
-display: inline;
-  width: 50%;
-  border-top: 2px solid rgb(145, 143, 143);
-  border-bottom: 2px solid rgb(145, 143, 143);
-
-  padding-left: 25px;
-
-}
-.activity-widget {
-  float: none;
-  width: 50%;
-  border-top: 2px solid rgb(145, 143, 143);
-  border-bottom: 2px solid rgb(145, 143, 143);
-  margin-left: 12px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.arrow {
-  padding: 10px;
-
-}
-
-input.src-user,
-input.message-user {
-  width: 95%;
-  padding: 10px;
-  margin: 10px;
-}
-.btn-bar button{
-  width: 90%;
-}
-.buttonsRight {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 0;
-  margin-left: 0;
-}
-.settings-widget {
-  width: 50%;
-  padding-left: 20px;
-  float: right;
-border-top: 0;
-}
-.messageUserContainer {
-  width: 50%;
-  float:left;
-}
-
-.line-chart {
-  display: block;
-}
-#line-chart {
-  width: 100% !important;
-  height: 700px !important;
-}
-.barChart {
-  float: left;
-  width: 50%;
-}
-donutChart {
-  float:right;
-  width: 50%;
-}
-.inlineCharts {
-  display: inline;
-  width: 50%;
-}
-.col-4 {
-  padding-left: 10px;
-}
-
-.members-block, .messages-container {
-  float: left;
-}
-
-form {
-  margin-top: 20px;
+  #membership {
+    width: 50%;
+    float: left;
+    border-right: 2px solid lightgrey;
+  }
+  .barChart {
+    float: left;
+    width: 50%;
+  }
+  .members-container {
+    margin-right: 0;
+    display: inline;
+    width: 50%;
+    border-top: 2px solid rgb(145, 143, 143);
+    border-bottom: 2px solid rgb(145, 143, 143);
+    padding-left: 25px;
+  }
+  .activity-widget {
+    float: none;
+    width: 50%;
+    border-top: 2px solid rgb(145, 143, 143);
+    border-bottom: 2px solid rgb(145, 143, 143);
+    margin-left: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .arrow {
+    padding: 10px;
+  }
+  .members-block {
+    padding-top: 5px;
+  }
+  input.src-user, input.message-user {
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .btn-bar button {
+    width: 90%;
+  }
+  .buttonsRight {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-left: 0;
+  }
+  .settings-widget {
+    width: 50%;
+    padding-left: 20px;
+    float: right;
+    border-top: 0;
+  }
+  .messageUserContainer {
+    width: 50%;
+    float: left;
+  }
+  .line-chart {
+    display: block;
+  }
+  #line-chart {
+    width: 100% !important;
+    height: 700px !important;
+  }
+  .barChart {
+    float: left;
+    width: 50%;
+  }
+  donutChart {
+    float: right;
+    width: 50%;
+  }
+  .inlineCharts {
+    display: inline;
+    width: 50%;
+  }
+  .col-4 {
+    padding-left: 10px;
+  }
+  .members-block, .messages-container {
+    float: left;
+  }
+  form {
+    margin-top: 20px;
   }
 }
