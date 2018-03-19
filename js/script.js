@@ -7,10 +7,12 @@ var buttonA = document.querySelector('.btn-bar');
 
 
 buttonA.addEventListener('click', function() {
-  if (src.value.length > 0 || msg.value.length > 0) {
-    src.value = "Submitted";
-  } else {
+  if (src.value = "" && msg.value = "") {
     src.value = "Please enter a name";
+  } else if (src.value = "" || msg.value = "") {
+    src.value = "Please enter a name";
+  } else {
+    src.value = "Submitted";
 }
 });
 //CHARTS
