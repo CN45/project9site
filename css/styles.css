@@ -624,24 +624,22 @@ float: left;
 
 .members-container {
   margin-right: 0;
-  float: left;
+display: inline;
   width: 50%;
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-left: 12px;
   padding-left: 25px;
-  display: flex;
-  flex-direction: column;
+
 }
 .activity-widget {
-  float:right;
+  float: none;
+  display: inline;
   width: 50%;
   border-top: 2px solid rgb(145, 143, 143);
   border-bottom: 2px solid rgb(145, 143, 143);
   margin-left: 12px;
-  padding-left: 25px;
-  display: flex;
-  flex-direction: column;
+
 }
 
 .settings-widget {
