@@ -7,9 +7,9 @@ var buttonA = document.querySelector('.btn-bar');
 
 
 buttonA.addEventListener('click', function() {
-  if (src.value = "" && msg.value = "") {
+  if (src.value === "" && msg.value === "") {
     src.value = "Please enter a name";
-  } else if (src.value = "" || msg.value = "") {
+  } else if (src.value === "" || msg.value === "") {
     src.value = "Please enter a name";
   } else {
     src.value = "Submitted";
